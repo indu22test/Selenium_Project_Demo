@@ -16,7 +16,6 @@ Examples:
 | https://dsportalapp.herokuapp.com/ | 
 
 
-
 @testcase002
 
 Scenario Outline: Open the homepage of DSPortalapp

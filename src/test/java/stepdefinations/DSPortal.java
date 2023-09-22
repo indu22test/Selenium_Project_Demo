@@ -1,13 +1,15 @@
 package stepdefinations;
 
 import org.openqa.selenium.By;
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.messages.types.Duration;
+
 
 public class DSPortal {
 
@@ -25,6 +27,8 @@ public void user_open_the_application_of_ds_portalapp_https_dsportalapp_herokuap
    System.getProperty("C:\\Users\\sheet\\eclipse-workspace\\Selenium_Project_01\\src\\test\\resources\\drivers");
    driver = new ChromeDriver();
    driver.get(URL);
+   driver.manage().window().maximize();
+   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
   
 
 }
