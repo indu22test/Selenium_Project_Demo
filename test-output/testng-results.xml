@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T22:49:35 EDT" name="Suite" finished-at="2023-09-21T22:49:55 EDT" duration-ms="20138">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T22:49:35 EDT" name="Testonmyedge" finished-at="2023-09-21T22:49:46 EDT" duration-ms="11488">
+      <class name="crossbrowser.CrossBrowserTest">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@74235045]" started-at="2023-09-21T22:49:35 EDT" name="LaunchBrowser" finished-at="2023-09-21T22:49:39 EDT" duration-ms="3527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifytitle()[pri:0, instance:crossbrowser.CrossBrowserTest@74235045]" started-at="2023-09-21T22:49:39 EDT" name="verifytitle" finished-at="2023-09-21T22:49:46 EDT" duration-ms="7598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@74235045]" started-at="2023-09-21T22:49:46 EDT" name="endTest" finished-at="2023-09-21T22:49:46 EDT" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- crossbrowser.CrossBrowserTest -->
+    </test> <!-- Testonmyedge -->
+    <test started-at="2023-09-21T22:49:46 EDT" name="Testonmychrome" finished-at="2023-09-21T22:49:55 EDT" duration-ms="8620">
+      <class name="crossbrowser.CrossBrowserTest">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:crossbrowser.CrossBrowserTest@7a8c8dcf]" started-at="2023-09-21T22:49:46 EDT" name="LaunchBrowser" finished-at="2023-09-21T22:49:47 EDT" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifytitle()[pri:0, instance:crossbrowser.CrossBrowserTest@7a8c8dcf]" started-at="2023-09-21T22:49:47 EDT" name="verifytitle" finished-at="2023-09-21T22:49:55 EDT" duration-ms="7567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:crossbrowser.CrossBrowserTest@7a8c8dcf]" started-at="2023-09-21T22:49:55 EDT" name="endTest" finished-at="2023-09-21T22:49:55 EDT" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- crossbrowser.CrossBrowserTest -->
+    </test> <!-- Testonmychrome -->
+  </suite> <!-- Suite -->
+</testng-results>
